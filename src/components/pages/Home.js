@@ -7,7 +7,7 @@ export default function Home() {
     <div className="hero">
       {/* <h1>Home Page</h1> */}
       <div className="logo-box">
-        <img src={myphoto} alt="my-photo" className="logo my-photo" />
+        <img src={myphoto} alt="my-photo" className="logo" />
       </div>
       <div className="text-box">
         <h1 className="heading-primary">

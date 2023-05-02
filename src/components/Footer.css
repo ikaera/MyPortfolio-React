@@ -1,4 +1,5 @@
 .footer {
+  position: absolute;
   background-color: #07135c;
   height: 100px;
   display: flex;
@@ -14,6 +15,7 @@
 }
 
 .footer-ul {
+  /* position: absolute; */
   /* position: absolute;
   bottom: 20px; */
   /* width: 100%; */

@@ -8,17 +8,28 @@ html {
   font-size: 10px;
 }
 
-.about-me {
+.about-me-container {
   margin: 10px;
   padding: 10px;
   text-align: justify;
   text-decoration: #07135c;
+  display: flex;
+  flex-direction: column;
 }
 
-.about-me p {
-  position: relative;
+.about-my-photo {
+  /* position: absolute; */
+  border-radius: 20px;
+  /* margin: 5px; */
+  /* margin-top: 1.5rem; */
+}
+.about-me-par {
+  /* position: relative; */
 
-  /* margin-top: 5px; */
+  /* margin-top: 5px !important; */
+  margin: 7px;
+  padding: 5px;
+  text-align: justify;
   font-size: 2rem;
   font-family: 'Courier New', Courier, monospace;
 }
