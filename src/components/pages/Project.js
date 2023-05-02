@@ -11,12 +11,14 @@ function Project(props) {
       image: img1,
       gitHub: 'https://github.com/Jsrra/Booze-Hound',
       diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: '',
     },
     {
       title: 'P2P Vinyl & CD Resale',
       image: img2,
       gitHub: 'https://github.com/ikaera/Project-2',
       diployedApp: 'https://serene-forest-09402.herokuapp.com/',
+      describtion: '',
     },
   ];
   return (
