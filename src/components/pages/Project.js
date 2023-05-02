@@ -11,7 +11,7 @@ function Project(props) {
       image: img1,
       gitHub: 'https://github.com/Jsrra/Booze-Hound',
       diployedApp: 'https://jsrra.github.io/Booze-Hound/',
-      describtion: '',
+      describtion: 'API, ',
     },
     {
       title: 'P2P Vinyl & CD Resale',
