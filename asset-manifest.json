@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio-React/static/css/main.48688eb5.css",
+    "main.js": "/MyPortfolio-React/static/js/main.4569a10e.js",
+    "static/js/787.a2cb61a6.chunk.js": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Booze-Hound.jpg": "/MyPortfolio-React/static/media/Booze-Hound.2e8857d28f31f041cf9b.jpg",
+    "static/media/discexchange favorited items.png": "/MyPortfolio-React/static/media/discexchange favorited items.8813bbf4a38624749e8e.png",
+    "static/media/full-stack-development.jpg": "/MyPortfolio-React/static/media/full-stack-development.acfcff235788a5aafbd8.jpg",
+    "static/media/Resume-Irakli-E.pdf": "/MyPortfolio-React/static/media/Resume-Irakli-E.0ef1797dfe5faddd0931.pdf",
+    "index.html": "/MyPortfolio-React/index.html",
+    "main.48688eb5.css.map": "/MyPortfolio-React/static/css/main.48688eb5.css.map",
+    "main.4569a10e.js.map": "/MyPortfolio-React/static/js/main.4569a10e.js.map",
+    "787.a2cb61a6.chunk.js.map": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48688eb5.css",
+    "static/js/main.4569a10e.js"
+  ]
+}
