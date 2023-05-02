@@ -29,7 +29,11 @@ function Project(props) {
             style={{ width: '60rem' }}
             key={project.title}
           >
-            <img className="card-img-top" src={project.image}></img>
+            <img
+              className="card-img-top"
+              src={project.image}
+              alt="project"
+            ></img>
             <div className="card-body">
               <h3 className="card-title">{project.title}</h3>
 

@@ -61,9 +61,10 @@ ul > li a {
 }
 
 .my-photo {
-  /* position: absolute; */
+  position: absolute;
   border-radius: 20px;
   /* margin: 5px; */
+  margin-top: 1.5rem;
 }
 
 .hero {
@@ -123,7 +124,8 @@ ul > li a {
 }
 
 .heading-primary {
-  color: #ffffff;
+  color: aquamarine;
+  text-shadow: #d9dcd6;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin-bottom: 6rem;
@@ -153,7 +155,7 @@ ul > li a {
   padding: 1.25rem 2.5rem;
   border-radius: 10rem;
   transition: all 0.3s;
-  color: #035699;
+  color: aquamarine;
   margin: 6px 2px;
   /* padding: 15px 32px; */
   /* text-align: center; */
