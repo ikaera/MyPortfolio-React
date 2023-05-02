@@ -23,7 +23,7 @@ function Project(props) {
   ];
   return (
     <div className="projects">
-      <h1> Projects </h1>
+      <h1 className="projects-heading"> Projects </h1>
       <div className="project-cards">
         {projects.map(project => (
           <div

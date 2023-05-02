@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import myphoto from './../../assets/passport.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {
   return (

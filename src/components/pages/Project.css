@@ -4,8 +4,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  /* height: 85vh; */
 }
 
+.projects-heading {
+  margin-top: 10px;
+  /* text-shadow: 2px 2px 4px blue; */
+  /* text-shadow: 0 0 3px #ff0000; */
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  font-stretch: expanded;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .project-cards {
   display: flex;
   width: 100%;

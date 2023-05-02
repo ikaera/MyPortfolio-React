@@ -103,16 +103,14 @@ export default function Contact() {
       </div> */}
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>Contact Page</h1>
-          <p>
-            I am interested in an entry level opportunity in Web Development.
-          </p>
+          <h1 className="contact-title">Contact Page</h1>
+          {/* <p>I am interested in an opportunity in Web Development.</p> */}
           {successMessage && (
             <div>
               <p className="success-text">{successMessage}</p>
             </div>
           )}
-          <div className="contact-form">
+          <div className="contact-form-el">
             <form
               id="my-form"
               className="form"
