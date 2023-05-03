@@ -71,6 +71,7 @@ ul > li a {
   height: 95vh;
   width: 100vw;
   margin-bottom: 25px;
+  margin-top: -1.8rem;
   background-image: linear-gradient(
       to right bottom,
       white,
@@ -87,32 +88,15 @@ ul > li a {
 .header {
   position: relative;
 }
-/* 
-.nav {
-  display: flex;
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  justify-content: center;
-} */
-
-/* .nav a {
-  /* font-weight: bold; 
-  color: darkred !important;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 0.1rem;
-  font-size: 1.8rem;
-} */
 
 .logo-box {
   position: absolute;
-  top: 6.3rem;
+  top: 7.4rem;
   /* left: 0.5rem; */
 }
 
 .logo {
-  height: 17rem;
+  height: 15rem;
 }
 
 .text-box {

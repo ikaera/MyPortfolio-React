@@ -1,4 +1,33 @@
-/* .navbar .nav .nav-item {
+.nav-div {
+  background-color: #07135c;
+}
+
+.nav-ul {
+  /* position: absolute; */
+  /* position: absolute;
+  bottom: 20px; */
+  /* width: 100%; */
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+.anchor-icon .nav-link .nav-text {
+  padding: 0px 7px;
+  display: inline-flex;
+  font-size: 25px;
+  line-height: 25px;
+  color: #8d8d8e;
+}
+
+.anchor-icon:hover,
+.nav-text:hover {
+  color: #ffd400;
+}
+
+/* .nav-item:hover {
+  background-color: #4156df;
 } */

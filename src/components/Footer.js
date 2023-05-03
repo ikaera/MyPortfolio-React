@@ -38,6 +38,7 @@ function Footer(props) {
               className="anchor-icon"
             />
           </a>
+          {/* <span>|</span> */}
         </li>
 
         <li>
