@@ -4,7 +4,7 @@ import myphoto from './../../assets/passport.jpg';
 
 export default function About() {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container" style={{ minHeight: '100vh' }}>
       <h1 className="about-heading">About Me</h1>
 
       <div className="about-my-photo">

@@ -20,6 +20,48 @@ function Project(props) {
       diployedApp: 'https://serene-forest-09402.herokuapp.com/',
       describtion: '',
     },
+    {
+      title: 'f',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
+    {
+      title: 'e',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
+    {
+      title: 'd',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
+    {
+      title: 'c',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
+    {
+      title: 'a',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
+    {
+      title: 'B',
+      image: img1,
+      gitHub: 'https://github.com/Jsrra/Booze-Hound',
+      diployedApp: 'https://jsrra.github.io/Booze-Hound/',
+      describtion: 'API, ',
+    },
   ];
   return (
     <div className="projects">
