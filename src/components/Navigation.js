@@ -19,10 +19,10 @@ import {
   faDownload,
 } from '@fortawesome/free-solid-svg-icons';
 import resumePDF from '../assets/Resume-Irakli-E.pdf';
-const PDF_Resume =
-  'https://docs.google.com/document/d/1677J2jOdyiuQ-0EPw6GkmcUUQn2_Ep26BrRXIZv2amk/edit#heading=h.ptzf6k1s5l03';
+// const PDF_Resume =
+//   'https://docs.google.com/document/d/1677J2jOdyiuQ-0EPw6GkmcUUQn2_Ep26BrRXIZv2amk/edit#heading=h.ptzf6k1s5l03';
 
-function Navigation({ setCurrentPage }) {
+function Navigation() {
   const downloadFile = url => {};
   return (
     <>
@@ -36,8 +36,8 @@ function Navigation({ setCurrentPage }) {
               className="nav-link"
               // className="nav-link active"
               aria-current="page"
-              href="#home"
-              onClick={() => setCurrentPage('Home')}
+              href="/"
+              // onClick={() => setCurrentPage('Home')}
             >
               <div>
                 <FontAwesomeIcon
@@ -52,8 +52,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#About"
-              onClick={() => setCurrentPage('About')}
+              href="/about"
+              // onClick={() => setCurrentPage('About')}
             >
               <div>
                 <FontAwesomeIcon
@@ -68,8 +68,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#Portfolio"
-              onClick={() => setCurrentPage('Project')}
+              href="/project"
+              // onClick={() => setCurrentPage('Project')}
             >
               <div>
                 <FontAwesomeIcon
@@ -84,8 +84,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#Contact"
-              onClick={() => setCurrentPage('Contact')}
+              href="/contact"
+              // onClick={() => setCurrentPage('Contact')}
             >
               <div>
                 <FontAwesomeIcon
