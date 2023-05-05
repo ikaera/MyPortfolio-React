@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="about-heading">About Me</h1>
 
       <div className="about-my-photo">
-        <img src={myphoto} alt="my-photo" className="about-my-photo" />
+        <img src={myphoto} alt="my-photo" className="about-my-photo-img" />
       </div>
       <div className="about-me-par">
         <p>

@@ -30,6 +30,7 @@ function App() {
       {/* <h1>Irakli Eradze</h1> */}
       <Navigation setCurrentPage={setCurrentPage} />
       {displayPage()}
+      {/* <Home setCurrentPage={setCurrentPage} /> */}
       <Footer />
     </div>
   );
