@@ -62,11 +62,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 <!-- Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+<!-- To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax: -->
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ``` -->
+### Screenshot:
+
+![alt text](/src/assets/img-project/MyPortfolioReact.png)
 
 - ### The URL of the functional, deployed application:
   - https://ikaera.github.io/MyPortfolio-React/
