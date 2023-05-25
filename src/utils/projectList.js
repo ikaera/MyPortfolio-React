@@ -1,5 +1,6 @@
 import img1 from '../assets/Booze-Hound.jpg';
 import img2 from '../assets/P2P Vinyl & CD Resale/discexchange favorited items.png';
+import FantasticBeasts from '../assets/img-project/FantasticBeasts.png';
 import techBlog from '../assets/img-project/Tech-Blog-IE-14.png';
 import codeQuiz from '../assets/img-project/codeQ.png';
 import weatherDashboard from '../assets/img-project/weatherDashboard.png';
@@ -9,6 +10,14 @@ import passwordGen from '../assets/img-project/passwordG.png';
 import MyPortfolioReact from '../assets/img-project/MyPortfolioReact.png';
 
 const projects = [
+  {
+    title: 'Fantastic Beasts and How to Buy Them',
+    image: FantasticBeasts,
+    gitHub: 'https://github.com/ikaera/Dream-Project',
+    diployedApp: 'https://fantastic-beasts.herokuapp.com/',
+    description:
+      'React, MongoDB, Mongoose, Node.js, Express.js, GraphQL, MongoDB Atlas, IndexedDB, PWA, JWT, Material UI, EmailJS, Stripe, Heroku',
+  },
   {
     title: 'Booze-Hound',
     image: img1,
