@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/MyPortfolio-React/static/css/main.ea4cd7a6.css",
-    "main.js": "/MyPortfolio-React/static/js/main.2e27978c.js",
+    "main.css": "/MyPortfolio-React/static/css/main.f63c9feb.css",
+    "main.js": "/MyPortfolio-React/static/js/main.6d3e3557.js",
     "static/js/787.a2cb61a6.chunk.js": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js",
+    "static/media/FantasticBeasts.png": "/MyPortfolio-React/static/media/FantasticBeasts.70b0dfd6cf58e4cc8c18.png",
     "static/media/MyPortfolioReact.png": "/MyPortfolio-React/static/media/MyPortfolioReact.764c38a3f684746321bb.png",
     "static/media/weatherDashboard.png": "/MyPortfolio-React/static/media/weatherDashboard.c0dbd2759ac26da02676.png",
     "static/media/Booze-Hound.jpg": "/MyPortfolio-React/static/media/Booze-Hound.2e8857d28f31f041cf9b.jpg",
@@ -15,12 +16,12 @@
     "static/media/NoteTaker.png": "/MyPortfolio-React/static/media/NoteTaker.fc46f380bef273a71b1c.png",
     "static/media/Text-Editor.png": "/MyPortfolio-React/static/media/Text-Editor.f064ff8d35ad3443647f.png",
     "index.html": "/MyPortfolio-React/index.html",
-    "main.ea4cd7a6.css.map": "/MyPortfolio-React/static/css/main.ea4cd7a6.css.map",
-    "main.2e27978c.js.map": "/MyPortfolio-React/static/js/main.2e27978c.js.map",
+    "main.f63c9feb.css.map": "/MyPortfolio-React/static/css/main.f63c9feb.css.map",
+    "main.6d3e3557.js.map": "/MyPortfolio-React/static/js/main.6d3e3557.js.map",
     "787.a2cb61a6.chunk.js.map": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea4cd7a6.css",
-    "static/js/main.2e27978c.js"
+    "static/css/main.f63c9feb.css",
+    "static/js/main.6d3e3557.js"
   ]
 }
