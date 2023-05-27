@@ -32,15 +32,18 @@ function App() {
 
       {/* <h1>Irakli Eradze</h1> */}
 
-      <Navigation /* setCurrentPage={setCurrentPage}*/ />
       {/* // {displayPage()} */}
       {/* <Home setCurrentPage={setCurrentPage} /> */}
+      <Navigation />
+      {/* <Home /> */}
       <Routes>
+        {/* <Route path="/" element={<Navigation />}> */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="project" element={<Project />} />
+        <Route path="contact" element={<Contact />} />
         {/* <Route path="*" element={<NotFound />} /> */}
+        {/* </Route> */}
       </Routes>
       <Footer />
     </div>

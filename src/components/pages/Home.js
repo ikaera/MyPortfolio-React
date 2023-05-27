@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 import './Home.css';
 import myphoto from './../../assets/passport.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,6 +29,7 @@ export default function Home(setCurrentPage) {
             ></a> */}
         </h1>
       </div>
+      <Outlet />
     </div>
   );
 }
