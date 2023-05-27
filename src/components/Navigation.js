@@ -36,8 +36,8 @@ function Navigation({ setCurrentPage }) {
               className="nav-link"
               // className="nav-link active"
               aria-current="page"
-              href="#home"
-              onClick={() => setCurrentPage('Home')}
+              href="/"
+              // onClick={() => setCurrentPage('Home')}
             >
               <div>
                 <FontAwesomeIcon
@@ -52,8 +52,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#About"
-              onClick={() => setCurrentPage('About')}
+              href="/About"
+              // onClick={() => setCurrentPage('About')}
             >
               <div>
                 <FontAwesomeIcon
@@ -68,8 +68,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#Portfolio"
-              onClick={() => setCurrentPage('Project')}
+              href="/Project"
+              // onClick={() => setCurrentPage('Project')}
             >
               <div>
                 <FontAwesomeIcon
@@ -84,8 +84,8 @@ function Navigation({ setCurrentPage }) {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="#Contact"
-              onClick={() => setCurrentPage('Contact')}
+              href="/Contact"
+              // onClick={() => setCurrentPage('Contact')}
             >
               <div>
                 <FontAwesomeIcon
