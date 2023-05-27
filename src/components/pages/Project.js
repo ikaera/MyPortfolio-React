@@ -22,7 +22,18 @@ function Project(props) {
     setSearchField(searchFieldString);
   };
 
-  const techButtons = ['React', 'Node', 'JavaScript', 'GraphQl', 'Handlebars'];
+  const techButtons = [
+    'CSS',
+    'GraphQL',
+    'HTML',
+    'JavaScript',
+    'MongoDB',
+    'Mongoose',
+    'Node',
+    'React',
+    'Redux',
+    'PWA',
+  ];
 
   const filterBySearch = project => {
     return project.description
@@ -40,7 +51,11 @@ function Project(props) {
             {tech}
           </button>
         ))}
-        <button className="tech-btn" key="show-all" onClick={onClickChange}>
+        <button
+          className="tech-btn-showall"
+          key="show-all"
+          onClick={onClickChange}
+        >
           Show All
         </button>
       </div>
