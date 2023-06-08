@@ -10,6 +10,24 @@ import './Contact.css';
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helper';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+  faSkype,
+} from '@fortawesome/free-brands-svg-icons';
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faSuitcase,
+  faBars,
+  faClose,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
+
+
 export default function Contact() {
   // const [letter, setLetter] = useState();
 
@@ -104,6 +122,50 @@ export default function Contact() {
       <div className="container contact-page">
         <div className="text-zone">
           <h1 className="contact-title">Contact Page</h1>
+
+          {/* <section id="contact-me" class="contact-me"> */}
+            {/* <h2>Contact </h2> */}
+
+            <ul class="contact-items">
+              <li class="phone"> <strong><FontAwesomeIcon
+              icon={faPhone}
+              color="#6d6d6e"
+              className="anchor-icon"
+            />
+            {/* <span>&#x2706;</span> */}
+            </strong>
+                <a href='tel:646-416-3914'> 1 646 416 3914 </a> </li>
+
+              <li class="email">
+                <strong><FontAwesomeIcon
+              icon={faEnvelope}
+              color="#6d6d6e"
+              className="anchor-icon"
+            /> </strong> <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:IrakliEradzeG@Gmail.com"> 
+                
+              IrakliEradzeG@Gmail.com 
+             </a>
+              </li>
+              <li class="linkedin">
+                <strong><FontAwesomeIcon
+              icon={faLinkedin}
+              color="#6d6d6e"
+              className="anchor-icon"
+            /> </strong>
+                <a href="https://www.linkedin.com/in/irakli-eradze-8317545/" target="_blank">LinkedIn</a>
+              </li>
+              <li class="github">
+                <strong><FontAwesomeIcon
+              icon={faGithub}
+              color="#6d6d6e"
+              className="anchor-icon"
+            /> </strong>
+                <a href="https://github.com/ikaera?tab=repositories" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          {/* </section> */}
+
           {/* <p>I am interested in an opportunity in Web Development.</p> */}
           {successMessage && (
             <div>
@@ -168,7 +230,7 @@ export default function Contact() {
                 type="submit"
                 className="contact-flat-button"
                 value="SEND"
-                // onClick={handleFormSubmit}
+              // onClick={handleFormSubmit}
               />
             </form>
             {errorMessage && (

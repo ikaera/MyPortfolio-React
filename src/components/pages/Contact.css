@@ -15,6 +15,36 @@
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
+.contact-items {
+  margin-top: 100px;
+  font-size: 1.7rem;
+  text-decoration: solid;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+ 
+
+}
+
+.contact-me {
+  height: 55vh;
+}
+
+.about-me h2,
+.work h2,
+.contact-me h2 {
+  font-size: 3rem;
+  color: rgb(7, 19, 73);
+}
+
+.email {
+  letter-spacing: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  forced-color-adjust: auto;
+}
+
 .contact-form-el {
   display: flex;
 }
@@ -41,6 +71,34 @@
   padding: 20px;
   box-sizing: border-box;
   min-height: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .user-story-el {
+    display: none;
+  }
+
+  .tech-ul {
+    flex-direction: column;
+    align-items: flex-start;
+    color: #07135c;
+    list-style-type: circle;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+
+  .contact-items {
+    margin-top: 30px;
+    line-height: 3.2rem;
+    letter-spacing: 0.1rem;
+    flex-direction: column;
+  }
+
+ 
+
 }
 
 /* .contact-li {

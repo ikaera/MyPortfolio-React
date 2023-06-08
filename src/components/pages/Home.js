@@ -16,10 +16,9 @@ export default function Home(setCurrentPage) {
           <span className="heading-primary-main"> Irakli Eradze </span>
           <a
             className="heading-primary-sub"
-            href="#Portfolio"
+            // href="#Portfolio"
             // onClick={() => setCurrentPage('Project')}
-          >
-            Web Developer
+          >     Web Developer 
           </a>
           {/* <a
               className="nav-link"

@@ -31,3 +31,14 @@
 /* .nav-item:hover {
   background-color: #4156df;
 } */
+
+/* @media screen and (max-width: 900px) {
+
+.anchor-icon .nav-link .nav-text {
+  padding: 0px 7px;
+  display: inline-flex;
+  font-size: 17px;
+  line-height: 17px;
+  color: #8d8d8e;
+}
+} */
