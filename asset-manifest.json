@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio-React/static/css/main.f63c9feb.css",
-    "main.js": "/MyPortfolio-React/static/js/main.f2e027d5.js",
+    "main.css": "/MyPortfolio-React/static/css/main.ade400af.css",
+    "main.js": "/MyPortfolio-React/static/js/main.c522394f.js",
     "static/js/787.a2cb61a6.chunk.js": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js",
     "static/media/FantasticBeasts.png": "/MyPortfolio-React/static/media/FantasticBeasts.70b0dfd6cf58e4cc8c18.png",
     "static/media/MyPortfolioReact.png": "/MyPortfolio-React/static/media/MyPortfolioReact.764c38a3f684746321bb.png",
@@ -16,12 +16,12 @@
     "static/media/NoteTaker.png": "/MyPortfolio-React/static/media/NoteTaker.fc46f380bef273a71b1c.png",
     "static/media/Text-Editor.png": "/MyPortfolio-React/static/media/Text-Editor.f064ff8d35ad3443647f.png",
     "index.html": "/MyPortfolio-React/index.html",
-    "main.f63c9feb.css.map": "/MyPortfolio-React/static/css/main.f63c9feb.css.map",
-    "main.f2e027d5.js.map": "/MyPortfolio-React/static/js/main.f2e027d5.js.map",
+    "main.ade400af.css.map": "/MyPortfolio-React/static/css/main.ade400af.css.map",
+    "main.c522394f.js.map": "/MyPortfolio-React/static/js/main.c522394f.js.map",
     "787.a2cb61a6.chunk.js.map": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f63c9feb.css",
-    "static/js/main.f2e027d5.js"
+    "static/css/main.ade400af.css",
+    "static/js/main.c522394f.js"
   ]
 }
