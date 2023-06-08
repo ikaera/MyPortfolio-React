@@ -17,6 +17,7 @@ import {
   faBars,
   faClose,
   faDownload,
+  faFile,
 } from '@fortawesome/free-solid-svg-icons';
 import resumePDF from '../assets/Resume-Irakli-E.pdf';
 const PDF_Resume =
@@ -97,15 +98,17 @@ function Navigation({ setCurrentPage }) {
               <p className="nav-text"> Contact </p>
             </a>
           </li>
+
           <li className="nav-item">
             <a
               className="nav-link"
               href={resumePDF}
-              download="IrakliEradze.PDF"
+              target='_blank'
+              // download="IrakliEradze.PDF"
             >
               <div>
                 <FontAwesomeIcon
-                  icon={faDownload}
+                  icon={faFile}
                   color="#6d6d6e"
                   className="anchor-icon"
                 />
@@ -114,6 +117,10 @@ function Navigation({ setCurrentPage }) {
               {/* &#xF30A */}
             </a>
           </li>
+
+
+        
+
         </ul>
       </div>
       {/* </div>
