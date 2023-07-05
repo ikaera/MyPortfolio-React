@@ -94,7 +94,7 @@ function Project(props) {
                 href={project.diployedApp}
                 target="_blank"
               >
-                Live App
+                DEMO
               </a>
             </div>
           </div>

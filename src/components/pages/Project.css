@@ -87,6 +87,15 @@
   text-align: center;
 }
 
+.card-link {
+  color: #617177;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 10rem;
+  padding: .2rem 1.5rem;
+  margin: 2px 2px;
+}
+
 @media screen and (max-width: 900px) {
 
   .tech-btn, .tech-btn-showall {
