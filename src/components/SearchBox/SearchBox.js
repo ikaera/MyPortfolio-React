@@ -15,6 +15,7 @@ const SearchBox = ({
         onChange={onChangeHandler}
         value={searchField}
         autoComplete="on"
+        className='search-input'
       />
     </div>
   </div>

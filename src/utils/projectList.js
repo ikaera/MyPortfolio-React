@@ -32,13 +32,13 @@ const projects = [
     diployedApp: 'https://serene-forest-09402.herokuapp.com/',
     description: '',
   },
-  {
-    title: 'Tech-Blog',
-    image: techBlog,
-    gitHub: 'https://github.com/ikaera/Tech-Blog-IE-14',
-    diployedApp: 'https://secure-tor-51469.herokuapp.com/',
-    description: ' ',
-  },
+  // {
+  //   title: 'Tech-Blog',
+  //   image: techBlog,
+  //   gitHub: 'https://github.com/ikaera/Tech-Blog-IE-14',
+  //   diployedApp: 'https://secure-tor-51469.herokuapp.com/',
+  //   description: ' ',
+  // },
   {
     title: 'Code-Quiz',
     image: codeQuiz,
@@ -55,13 +55,13 @@ const projects = [
       'https://ikaera.github.io/Mod6-Server-Side-APIs-Challenge-WeatherDashboard/',
     description: 'API, ',
   },
-  {
-    title: 'My-Note-Taker',
-    image: noteTaker,
-    gitHub: 'https://github.com/ikaera/My-Note-Taker',
-    diployedApp: 'https://fierce-thicket-04291.herokuapp.com/',
-    description: 'Express.js, Node.js, JavaScript, Path module, UUID module, ',
-  },
+  // {
+  //   title: 'My-Note-Taker',
+  //   image: noteTaker,
+  //   gitHub: 'https://github.com/ikaera/My-Note-Taker',
+  //   diployedApp: 'https://fierce-thicket-04291.herokuapp.com/',
+  //   description: 'Express.js, Node.js, JavaScript, Path module, UUID module, ',
+  // },
   {
     title: 'My Portfolio in React',
     image: MyPortfolioReact,
