@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio-React/static/css/main.7784fae7.css",
-    "main.js": "/MyPortfolio-React/static/js/main.b6c75ab0.js",
+    "main.js": "/MyPortfolio-React/static/js/main.54b81186.js",
     "static/js/787.a2cb61a6.chunk.js": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js",
     "static/media/FantasticBeasts.png": "/MyPortfolio-React/static/media/FantasticBeasts.70b0dfd6cf58e4cc8c18.png",
     "static/media/MyPortfolioReact.png": "/MyPortfolio-React/static/media/MyPortfolioReact.764c38a3f684746321bb.png",
@@ -10,18 +10,18 @@
     "static/media/codeQ.png": "/MyPortfolio-React/static/media/codeQ.94bcb0d82519999647b9.png",
     "static/media/discexchange favorited items.png": "/MyPortfolio-React/static/media/discexchange favorited items.8813bbf4a38624749e8e.png",
     "static/media/full-stack-development.jpg": "/MyPortfolio-React/static/media/full-stack-development.acfcff235788a5aafbd8.jpg",
-    "static/media/Resume-Irakli-E.pdf": "/MyPortfolio-React/static/media/Resume-Irakli-E.c4e9d094dccc0b149a63.pdf",
+    "static/media/Resume-Irakli-E.pdf": "/MyPortfolio-React/static/media/Resume-Irakli-E.d3c9710b2436e332b30d.pdf",
     "static/media/Tech-Blog-IE-14.png": "/MyPortfolio-React/static/media/Tech-Blog-IE-14.59a1c9411cf90bcdb37c.png",
     "static/media/passwordG.png": "/MyPortfolio-React/static/media/passwordG.11f6941a5d815dcf92ca.png",
     "static/media/NoteTaker.png": "/MyPortfolio-React/static/media/NoteTaker.fc46f380bef273a71b1c.png",
     "static/media/Text-Editor.png": "/MyPortfolio-React/static/media/Text-Editor.f064ff8d35ad3443647f.png",
     "index.html": "/MyPortfolio-React/index.html",
     "main.7784fae7.css.map": "/MyPortfolio-React/static/css/main.7784fae7.css.map",
-    "main.b6c75ab0.js.map": "/MyPortfolio-React/static/js/main.b6c75ab0.js.map",
+    "main.54b81186.js.map": "/MyPortfolio-React/static/js/main.54b81186.js.map",
     "787.a2cb61a6.chunk.js.map": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7784fae7.css",
-    "static/js/main.b6c75ab0.js"
+    "static/js/main.54b81186.js"
   ]
 }
