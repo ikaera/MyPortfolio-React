@@ -153,7 +153,7 @@ export default function Contact() {
               color="#6d6d6e"
               className="anchor-icon"
             /> </strong>
-                <a href="https://www.linkedin.com/in/irakli-eradze-8317545/" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/irakli-eradze/" target="_blank">LinkedIn</a>
               </li>
               <li class="github">
                 <strong><FontAwesomeIcon
