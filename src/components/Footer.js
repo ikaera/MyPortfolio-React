@@ -22,7 +22,7 @@ function Footer(props) {
     <div className="footer">
       {/* <h1> Footer </h1> */}
       <p>
-        <span className="copyright">Copyright &copy; 2023</span>
+        <span className="copyright">Copyright &copy; {new Date().getFullYear()}</span>
       </p>
       <ul className="footer-ul">
         <li>
