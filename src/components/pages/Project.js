@@ -23,15 +23,18 @@ function Project(props) {
   };
 
   const techButtons = [
-    'CSS',
-    'GraphQL',
-    'HTML',
     'JavaScript',
-    'MongoDB',
-    'Mongoose',
     'Node',
     'React',
     'Redux',
+    'Next',
+    'HTML',
+    'CSS',
+    'GraphQL',
+    'MongoDB',
+    'Mongoose', 
+    'MySQL',
+    'NoSQL',   
     'PWA',
   ];
 

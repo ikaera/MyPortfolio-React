@@ -30,7 +30,7 @@ const projects = [
     image: img2,
     gitHub: 'https://github.com/ikaera/Project-2',
     diployedApp: 'https://serene-forest-09402.herokuapp.com/',
-    description: '',
+    description: 'JavaScript, HTML, CSS',
   },
   // {
   //   title: 'Tech-Blog',
@@ -44,7 +44,7 @@ const projects = [
     image: codeQuiz,
     gitHub: 'https://github.com/ikaera/Code-Quiz-WebDiv-IE',
     diployedApp: 'https://ikaera.github.io/Code-Quiz-WebDiv-IE/',
-    description: 'JS, DOM, CSS, HTML ',
+    description: 'JavaScript, DOM, CSS, HTML ',
   },
   {
     title: 'Weather Dashboard',
@@ -53,7 +53,7 @@ const projects = [
       'https://github.com/ikaera/Mod6-Server-Side-APIs-Challenge-WeatherDashboard',
     diployedApp:
       'https://ikaera.github.io/Mod6-Server-Side-APIs-Challenge-WeatherDashboard/',
-    description: 'API, ',
+    description: 'API, JavaScript, HTML, CSS',
   },
   // {
   //   title: 'My-Note-Taker',
@@ -67,14 +67,14 @@ const projects = [
     image: MyPortfolioReact,
     gitHub: 'https://github.com/ikaera/MyPortfolio-React',
     diployedApp: 'https://ikaera.github.io/MyPortfolio-React/',
-    description: 'Node.js, React',
+    description: 'JavaScript, Node.js, React',
   },
   {
     title: 'Password Generator',
     image: passwordGen,
     gitHub: 'https://github.com/ikaera/Password-Generator-IE',
     diployedApp: 'https://ikaera.github.io/Password-Generator-IE/',
-    description: 'JS, DOM',
+    description: 'JavaScript, DOM, HTML, CSS ',
   },
 ];
 

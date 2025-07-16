@@ -27,7 +27,7 @@ function Footer(props) {
       <ul className="footer-ul">
         <li>
           <a
-            href="https://www.linkedin.com/in/irakli-eradze-8317545/"
+            href="https://www.linkedin.com/in/irakli-eradze/"
             target="_blank"
             rel="noreferrer"
             className="footer-anchor"
