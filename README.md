@@ -17,16 +17,14 @@
   - I WANT to view a potential employee's deployed React portfolio of work samples,
     - SO THAT I can assess whether they're a good candidate for an open position.
 
-## Table of Contents (Optional)
+<!-- ## Table of Contents (Optional) -->
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
+<!-- - [Installation](#installation) -->
+<!-- - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+- [License](#license) -->
 
-## Installation
+<!-- ## Installation -->
 
 <!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
@@ -75,11 +73,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+<!-- List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-If you followed tutorials, include links to those here as well.
+If you followed tutorials, include links to those here as well. -->
 
 ## License
 
