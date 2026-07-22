@@ -43,27 +43,10 @@ function Navigation({ setCurrentPage }) {
               <div>
                 <FontAwesomeIcon
                   icon={faHome}
-                  color="#6d6d6e"
                   className="anchor-icon"
                 />
               </div>
               <p className="nav-text">Home</p>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="#About"
-              onClick={() => setCurrentPage('About')}
-            >
-              <div>
-                <FontAwesomeIcon
-                  icon={faUser}
-                  color="#6d6d6e"
-                  className="anchor-icon"
-                />
-              </div>
-              <p className="nav-text"> About</p>
             </a>
           </li>
           <li className="nav-item">
@@ -75,7 +58,6 @@ function Navigation({ setCurrentPage }) {
               <div>
                 <FontAwesomeIcon
                   icon={faSuitcase}
-                  color="#6d6d6e"
                   className="anchor-icon"
                 />
               </div>
@@ -91,7 +73,6 @@ function Navigation({ setCurrentPage }) {
               <div>
                 <FontAwesomeIcon
                   icon={faEnvelope}
-                  color="#6d6d6e"
                   className="anchor-icon"
                 />
               </div>
@@ -109,7 +90,6 @@ function Navigation({ setCurrentPage }) {
               <div>
                 <FontAwesomeIcon
                   icon={faFile}
-                  color="#6d6d6e"
                   className="anchor-icon"
                 />
               </div>

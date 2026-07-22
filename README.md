@@ -56,6 +56,24 @@
   - WHEN I view the footer,
     - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
 
+## Deploy Updated React Portfolio
+
+After you've made your changes, run the following commands:
+
+```bash
+git add .
+git commit -m "commit message"
+git push origin main
+
+npm run deploy
+```
+
+### What these commands do
+
+- `git add .` — Stage all modified files.
+- `git commit -m "Update portfolio"` — Create a commit with your changes.
+- `git push origin main` — Push the changes to your GitHub repository.
+- `npm run deploy` — Build the React application and deploy it to GitHub Pages using the `gh-pages` package.
 ## Usage
 
 <!-- Provide instructions and examples for use. Include screenshots as needed.

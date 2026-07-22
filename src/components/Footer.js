@@ -32,11 +32,7 @@ function Footer(props) {
             rel="noreferrer"
             className="footer-anchor"
           >
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              color="#6d6d6e"
-              className="anchor-icon"
-            />
+            <FontAwesomeIcon icon={faLinkedin} className="anchor-icon" />
           </a>
           {/* <span>|</span> */}
         </li>
@@ -45,28 +41,20 @@ function Footer(props) {
           <a
             href="https://github.com/ikaera?tab=repositories"
             target="_blank"
-            rel="nonreferrer"
+            rel="noreferrer"
             className="footer-anchor"
           >
-            <FontAwesomeIcon
-              icon={faGithub}
-              color="#6d6d6e"
-              className="anchor-icon"
-            />
+            <FontAwesomeIcon icon={faGithub} className="anchor-icon" />
           </a>
         </li>
         <li>
           <a
             href="mailto:IrakliEradzeG@gmail.com"
             target="_blank"
-            rel="nonreferrer"
+            rel="noreferrer"
             className="footer-anchor"
           >
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              color="#6d6d6e"
-              className="anchor-icon"
-            />
+            <FontAwesomeIcon icon={faEnvelope} className="anchor-icon" />
           </a>
         </li>
       </ul>

@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* ===== Design tokens: refined green palette ===== */
+:root {
+  --green-900: #1b4332;
+  --green-800: #245741;
+  --green-700: #2d6a4f;
+  --green-600: #40916c;
+  --green-500: #52b788;
+  --green-300: #95d5b2;
+  --green-100: #d8f0e2;
+  --green-50: #f0f6f2;
+
+  --ink: #1b2a24;
+  --ink-soft: #4a5b52;
+  --surface: #ffffff;
+  --bg: #eef3ef;
+
+  --shadow-sm: 0 1px 3px rgba(27, 67, 50, 0.12);
+  --shadow-md: 0 6px 18px rgba(27, 67, 50, 0.14);
+  --shadow-lg: 0 14px 34px rgba(27, 67, 50, 0.18);
+  --radius: 14px;
+  --radius-pill: 999px;
+
+  --font-sans: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--ink);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App shell — flex column so the footer can stick to the bottom */
+.page {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: var(--green-700);
 }

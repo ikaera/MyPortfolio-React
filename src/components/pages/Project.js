@@ -1,104 +1,134 @@
-import React, { useState, useEffect } from 'react';
-// import classes from './Project.module.css';
+import React, { useState } from 'react';
 import './Project.css';
 
 import SearchBox from '../SearchBox/SearchBox';
 
 import projects from '../../utils/projectList';
 
-function Project(props) {
+// Split a project's comma-separated description into clean tech tokens.
+const techOf = project =>
+  project.description
+    .split(',')
+    .map(t => t.trim())
+    .filter(Boolean);
+
+// Filter buttons, ordered to mirror the resume skills (not the raw data).
+const techGroups = [
+  {
+    label: 'Languages',
+    items: ['Python', 'SQL', 'Java', 'JavaScript', 'React', 'C/C++'],
+  },
+  {
+    label: 'Databases',
+    items: ['MySQL', 'MongoDB', 'NoSQL'],
+  },
+];
+
+function Project() {
   const [searchField, setSearchField] = useState('');
 
   const onClickChange = event => {
-    const btnText = event.target.textContent.toLowerCase();
-    if (btnText === 'show all') {
-      return setSearchField('');
-    }
-    setSearchField(btnText);
+    const btnText = event.target.textContent.toLowerCase().trim();
+    setSearchField(btnText === 'show all' ? '' : btnText);
   };
 
   const onSearchChange = event => {
-    const searchFieldString = event.target.value.toLowerCase();
-    setSearchField(searchFieldString);
+    setSearchField(event.target.value.toLowerCase());
   };
 
-  const techButtons = [
-    'JavaScript',
-    'Node',
-    'React',
-    'Redux',
-    'Next',
-    'HTML',
-    'CSS',
-    'GraphQL',
-    'MongoDB',
-    'Mongoose', 
-    'MySQL',
-    'NoSQL',   
-    'PWA',
-  ];
+  const filterBySearch = project =>
+    project.description.toLowerCase().includes(searchField.toLowerCase());
 
-  const filterBySearch = project => {
-    return project.description
-      .toLowerCase()
-      .includes(searchField.toLowerCase());
-  };
+  const filtered = projects.filter(filterBySearch);
 
   return (
     <div className="projects">
-      <h1 className="projects-heading"> Projects </h1>
+      <h1 className="projects-heading">Projects</h1>
 
-      <div>
-        {techButtons.map(tech => (
-          <button className="tech-btn" key={tech} onClick={onClickChange}>
-            {tech}
-          </button>
-        ))}
+      <div className="tech-filter">
         <button
-          className="tech-btn-showall"
+          className={`tech-btn tech-btn--all${
+            searchField === '' ? ' is-active' : ''
+          }`}
           key="show-all"
           onClick={onClickChange}
         >
           Show All
         </button>
+
+        {techGroups.map(group => (
+          <div className="tech-group" key={group.label}>
+            <span className="tech-group__label">{group.label}:</span>
+            {group.items.map(tech => (
+              <button
+                className={`tech-btn${
+                  searchField === tech.toLowerCase() ? ' is-active' : ''
+                }`}
+                key={tech}
+                onClick={onClickChange}
+              >
+                {tech}
+              </button>
+            ))}
+          </div>
+        ))}
       </div>
 
       <div className="search-container">
         <SearchBox
           className="store-search-box"
           onChangeHandler={onSearchChange}
-          placeholder="ProjectFinder by Tech 🔍"
+          placeholder="Find a project by tech 🔍"
           searchField={searchField}
         />
       </div>
 
       <div className="project-cards">
-        {projects.filter(filterBySearch).map(project => (
-          <div
-            className="project card"
-            style={{ width: '60rem' }}
-            key={project.title}
-          >
-            <a href={project.diployedApp} target="_blank">
-              <img
-                className="card-img-top"
-                src={project.image}
-                alt="project"
-              ></img>
-            </a>
-            <div className="card-body">
-              <h3 className="card-title">{project.title}</h3>
+        {filtered.length === 0 && (
+          <p className="no-results">No projects match that tech yet.</p>
+        )}
 
-              <a className="card-link" href={project.gitHub} target="_blank">
-                GitHub
-              </a>
-              <a
-                className="card-link"
-                href={project.diployedApp}
-                target="_blank"
-              >
-                DEMO
-              </a>
+        {filtered.map(project => (
+          <div className="project-card" key={project.title}>
+            <a
+              href={project.diployedApp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card__media"
+            >
+              <img src={project.image} alt={project.title} loading="lazy" />
+            </a>
+
+            <div className="project-card__body">
+              <h3 className="project-card__title">{project.title}</h3>
+
+              {/* Resume-style tech list, rendered as pills */}
+              <ul className="tech-pills">
+                {techOf(project).map(tech => (
+                  <li className="tech-pill" key={tech}>
+                    {tech}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="project-card__links">
+                <a
+                  className="card-link"
+                  href={project.gitHub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  className="card-link card-link--primary"
+                  href={project.diployedApp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
             </div>
           </div>
         ))}

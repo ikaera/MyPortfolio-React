@@ -3,7 +3,6 @@ import './App.css';
 import Footer from './components/Footer';
 import Project from './components/pages/Project';
 import Home from './components/pages/Home';
-import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 
 import Navigation from './components/Navigation';
@@ -14,10 +13,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('Home');
   function displayPage() {
     if (currentPage === 'Home') {
-      return <Home />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
+      return <Home setCurrentPage={setCurrentPage} />;
     }
     if (currentPage === 'Project') {
       return <Project />;
