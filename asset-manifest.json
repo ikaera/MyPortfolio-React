@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/MyPortfolio-React/static/css/main.7784fae7.css",
-    "main.js": "/MyPortfolio-React/static/js/main.1a72035d.js",
+    "main.css": "/MyPortfolio-React/static/css/main.0302737c.css",
+    "main.js": "/MyPortfolio-React/static/js/main.a1bb283e.js",
     "static/js/787.a2cb61a6.chunk.js": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js",
     "static/media/FantasticBeasts.png": "/MyPortfolio-React/static/media/FantasticBeasts.70b0dfd6cf58e4cc8c18.png",
-    "static/media/MyPortfolioReact.png": "/MyPortfolio-React/static/media/MyPortfolioReact.764c38a3f684746321bb.png",
+    "static/media/MyPortfolioReact.png": "/MyPortfolio-React/static/media/MyPortfolioReact.d8e158a0c9c777914b61.png",
     "static/media/weatherDashboard.png": "/MyPortfolio-React/static/media/weatherDashboard.c0dbd2759ac26da02676.png",
     "static/media/Booze-Hound.jpg": "/MyPortfolio-React/static/media/Booze-Hound.2e8857d28f31f041cf9b.jpg",
     "static/media/codeQ.png": "/MyPortfolio-React/static/media/codeQ.94bcb0d82519999647b9.png",
     "static/media/discexchange favorited items.png": "/MyPortfolio-React/static/media/discexchange favorited items.8813bbf4a38624749e8e.png",
-    "static/media/full-stack-development.jpg": "/MyPortfolio-React/static/media/full-stack-development.acfcff235788a5aafbd8.jpg",
     "static/media/Tech-Blog-IE-14.png": "/MyPortfolio-React/static/media/Tech-Blog-IE-14.59a1c9411cf90bcdb37c.png",
     "static/media/Resume-Irakli-E.pdf": "/MyPortfolio-React/static/media/Resume-Irakli-E.2afe97527f12abd571f2.pdf",
     "static/media/passwordG.png": "/MyPortfolio-React/static/media/passwordG.11f6941a5d815dcf92ca.png",
     "static/media/NoteTaker.png": "/MyPortfolio-React/static/media/NoteTaker.fc46f380bef273a71b1c.png",
     "static/media/Text-Editor.png": "/MyPortfolio-React/static/media/Text-Editor.f064ff8d35ad3443647f.png",
     "index.html": "/MyPortfolio-React/index.html",
-    "main.7784fae7.css.map": "/MyPortfolio-React/static/css/main.7784fae7.css.map",
-    "main.1a72035d.js.map": "/MyPortfolio-React/static/js/main.1a72035d.js.map",
+    "main.0302737c.css.map": "/MyPortfolio-React/static/css/main.0302737c.css.map",
+    "main.a1bb283e.js.map": "/MyPortfolio-React/static/js/main.a1bb283e.js.map",
     "787.a2cb61a6.chunk.js.map": "/MyPortfolio-React/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7784fae7.css",
-    "static/js/main.1a72035d.js"
+    "static/css/main.0302737c.css",
+    "static/js/main.a1bb283e.js"
   ]
 }
