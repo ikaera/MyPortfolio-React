@@ -12,7 +12,7 @@ export default function Home({ setCurrentPage }) {
 
         <div className="hero__content">
           <p className="hero__eyebrow">Hello, I'm</p>
-          <h1 className="hero__name">Irakli Eradze</h1>
+          <h1 className="hero__name">Irakli (Ike) Eradze</h1>
           <p className="hero__tagline">Data Science &amp; Software Engineering</p>
 
           <p className="hero__intro">
